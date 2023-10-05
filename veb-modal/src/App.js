@@ -16,7 +16,7 @@ const App = () => {
     return (
       <div> 
         <button onClick={openModal}> Open Modal </button>
-        {modalVisible && <Modal text="Employee Created !" closeModal={closeModal} />}
+        {modalVisible && <Modal text="Employee Created !" closeModal={closeModal} styleModalBody={{ width: 500 }} styleButton={{ backgroundColor: "#15249C", color: "white" }} styleText={{ fontSize: 50 }} />}
       </div>
     )
 }
