@@ -1,4 +1,4 @@
-npm install --save react-modal-component-library
+npm install --save veb-modal
 
 Usage :
 
@@ -13,7 +13,7 @@ The Modal component needs 5 props :
 Example :
 
 import React, { useState } from 'react'
-import Modal from 'react-modal-component-library'
+import Modal from 'veb-modal'
 import 'react-modal-component-library/dist/index.css'
 
 function Example () {
