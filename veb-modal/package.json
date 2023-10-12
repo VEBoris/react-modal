@@ -1,6 +1,6 @@
 {
   "name": "veb-modal",
-  "version": "0.3.2",
+  "version": "0.3.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/VEBoris/react-modal.git"
@@ -11,8 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "web-vitals": "^2.1.4",
     "main": "dist/index.js",
-    "module": "dist/index.js",
-    "files": ["dist","README.md"]
+    "module": "dist/index.js"
   },
   "scripts": {
     "start": "react-scripts start",
