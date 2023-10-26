@@ -1,10 +1,12 @@
 {
   "name": "veb-modal",
-  "version": "0.4.4",
+  "version": "0.4.6",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
+  "author": "v.e.b",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VEBoris/react-modal.git"

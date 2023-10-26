@@ -1,6 +1,12 @@
+##Description :
+
+a modal pluggin for react
+
+##Installation :
+
 npm install --save veb-modal
 
-Usage :
+##Usage :
 
 The Modal component needs 5 props :
 
@@ -10,7 +16,7 @@ The Modal component needs 5 props :
     {styleButton} : the style of the button
     {styleText} : the style of the text
 
-Example :
+##Example :
 
 import React, { useState } from 'react'
 import Modal from 'veb-modal'
@@ -30,7 +36,7 @@ function Example () {
     return (
       <div> 
         <button onClick={openModal}> Open Modal </button>
-        {modalVisible && <Modal text="Employee Created !" closeModal={closeModal} styleModalBody={{ width: 500 }} styleButton={{ backgroundColor: "#15249C", color: "white" }} styleText={{ fontSize: 50 }} />}
+        {modalVisible && <Modal text="Employee Created !" closeModal={closeModal} />}
       </div>
     )
 }

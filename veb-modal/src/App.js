@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Modal from './lib/index.js';
+import Modal from 'veb-modal';
 import './lib/index.css';
 
 const App = () => {
