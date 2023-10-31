@@ -1,6 +1,6 @@
 {
   "name": "veb-modal",
-  "version": "0.4.6",
+  "version": "1.0.0",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
